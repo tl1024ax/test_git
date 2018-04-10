@@ -1,0 +1,17 @@
+1.运行"xx上传.bat"
+2.连接上之后，输入sh upload.sh，然后回车
+3.在弹出的对话框中选择apk文件，添加“add”，然后再点“OK”
+4.等待上传完成之后，输入sh genver.sh，然后回车
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+1.先拷贝到如下目录：\\192.168.0.57\3d捕鱼\apk，为了方便测试下载包测试。
+2.打包服务器配置，项目中serverconfig.xml。代码GameServerManager.cs
+
+
+
+sh upload.sh
+cd /var/www/html
+ls -l
+
+
+cp 拷贝：cd aa(resource) bb(target)
+rm 删除：rm xx(target)
